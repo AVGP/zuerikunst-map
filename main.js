@@ -30,7 +30,7 @@ function initMap() {
                 content: `
                   <div>
                     <h1>${obj.name}</h1>
-                    <p>Hierbei handelt es sich um eine ${obj.type} von ${obj.date} durch ${obj.artist}.</p>
+                    <p>${obj.type} von ${obj.artist}, ${obj.date}.</p>
                     <p>Entfernung: ${parseFloat(obj.distance).toFixed(2)} Meter</p>
                   </div>
                 `
